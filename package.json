@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "ssr2",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,6 +9,7 @@
   "author": "Valery Buko",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "0.0.7",
     "express": "^4.16.2",
     "next": "^5.0.0",
     "react": "^16.2.0",
