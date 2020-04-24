@@ -170,10 +170,13 @@ var Card = function Card(props) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_css__ = __webpack_require__("./pages/index.css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Card__ = __webpack_require__("./pages/Card.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_css__ = __webpack_require__("./pages/index.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Card__ = __webpack_require__("./pages/Card.js");
 var _jsxFileName = 'D:\\linkedIn learning\\Server Side Rendering\\sandbox\\server\\pages\\index.js';
+
 
 
 
@@ -183,65 +186,73 @@ var _jsxFileName = 'D:\\linkedIn learning\\Server Side Rendering\\sandbox\\serve
         'div',
         { className: 'App', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 5
+                lineNumber: 6
             }
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'header',
             { className: 'App-header', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 6
-                }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/logo.png',
-                className: 'static-logo', alt: 'logo',
-                __source: {
-                    fileName: _jsxFileName,
                     lineNumber: 7
                 }
-            })
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+                { href: '/page2', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 8
+                    }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/logo.png',
+                    className: 'static-logo', alt: 'logo',
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 9
+                    }
+                })
+            )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'Grid', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 11
-                }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Card__["a" /* default */], {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 12
-                }
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Card__["a" /* default */], {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 13
-                }
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Card__["a" /* default */], {
-                __source: {
-                    fileName: _jsxFileName,
                     lineNumber: 14
                 }
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Card__["a" /* default */], {
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["a" /* default */], {
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 15
                 }
             }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Card__["a" /* default */], {
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["a" /* default */], {
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 16
                 }
             }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Card__["a" /* default */], {
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["a" /* default */], {
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 17
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["a" /* default */], {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 18
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["a" /* default */], {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 19
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["a" /* default */], {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 20
                 }
             })
         )
@@ -255,6 +266,13 @@ var _jsxFileName = 'D:\\linkedIn learning\\Server Side Rendering\\sandbox\\serve
 
 module.exports = __webpack_require__("./pages/index.js");
 
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
 
 /***/ }),
 
